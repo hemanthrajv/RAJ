@@ -1,7 +1,7 @@
-a=int(input())
-b = [int(input()) for x in range(a)]
-for i in range(len(b)):
-	for j in range(len(b)):
-		if b[i]==b[j] and i!=j:
+c = int(input())
+d = [int(input()) for x in range(c)]
+for i in range(len(d)):
+	for j in range(len(d)):
+		if d[i]==d[j] and i!=j:
 			break
-	else: print(b[i])
+	else: print(d[i])
